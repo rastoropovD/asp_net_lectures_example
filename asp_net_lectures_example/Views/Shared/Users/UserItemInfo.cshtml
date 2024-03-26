@@ -1,0 +1,20 @@
+@model UserViewModel
+
+@* <tr> *@
+@*     <th scope="row">@Model.Id</th> *@
+@*     <td>@Model.UserName</td> *@
+@*     <td>@Model.Email</td> *@
+@*     <td> *@
+@*         @Html.ActionLink("Delete", "Delete", "RemoveUser", new {id = Model.Id}) *@
+@*     </td> *@
+@* </tr> *@
+
+<div class="card col-4" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.UserName</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Email</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Edit</a>
+        @Html.ActionLink("Delete", "Delete", "RemoveUser", new {id = Model.Id})
+    </div>
+</div>

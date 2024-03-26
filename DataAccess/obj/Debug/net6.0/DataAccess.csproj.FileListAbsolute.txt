@@ -1,0 +1,12 @@
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/bin/Debug/net6.0/DataAccess.deps.json
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/bin/Debug/net6.0/DataAccess.dll
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/bin/Debug/net6.0/DataAccess.pdb
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/DataAccess.csproj.AssemblyReference.cache
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfoInputs.cache
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfo.cs
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/DataAccess.dll
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/refint/DataAccess.dll
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/DataAccess.pdb
+/Users/dmytro.rastoropov/Projects/asp_net_lectures_example/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll
