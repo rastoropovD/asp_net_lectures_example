@@ -12,6 +12,14 @@
         },
         "runtime": {
           "asp_net_lectures_example.dll": {}
+        },
+        "resources": {
+          "en-us/asp_net_lectures_example.resources.dll": {
+            "locale": "en-us"
+          },
+          "uk-ua/asp_net_lectures_example.resources.dll": {
+            "locale": "uk-ua"
+          }
         }
       },
       "DataAccess/1.0.0": {

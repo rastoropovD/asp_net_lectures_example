@@ -1,20 +1,25 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using asp_net_lectures_example.Models;
+using asp_net_lectures_example.Resources;
+using Microsoft.Extensions.Localization;
 
 namespace asp_net_lectures_example.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly IStringLocalizer<Texts> _localizer;
+    
+    public HomeController(ILogger<HomeController> logger, IStringLocalizer<Texts> localizer)
     {
         _logger = logger;
+        _localizer = localizer;
     }
 
     public async Task<IActionResult> Index()
     {
+        string t = _localizer["Title"].Value;
         return View();
     }
 

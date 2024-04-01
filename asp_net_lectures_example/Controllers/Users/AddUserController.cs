@@ -1,8 +1,11 @@
+using System.Linq;
 using asp_net_lectures_example.Models;
+using asp_net_lectures_example.Resources;
 using DataAccess.Entities;
 using DataAccess.MockDb;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Localization;
 
 namespace asp_net_lectures_example.Controllers.Users;
 
