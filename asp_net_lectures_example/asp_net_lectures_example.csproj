@@ -13,10 +13,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <EmbeddedResource Update="Resources\Texts.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Texts.Designer.cs</LastGenOutput>
@@ -53,6 +49,10 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>SharedResource.resx</DependentUpon>
       </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     </ItemGroup>
 
 </Project>

@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Reflection;
 using asp_net_lectures_example.Models;
 using asp_net_lectures_example.Resources;
+using DataAccess.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Localization.Routing;
@@ -31,6 +32,8 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     var requestProvider = new RouteDataRequestCultureProvider();
     options.RequestCultureProviders.Insert(0, requestProvider);
 });
+
+builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 
 var app = builder.Build();
 

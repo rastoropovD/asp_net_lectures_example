@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_net_lectures_example", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{A067A2B4-5E0B-4CC0-8F4A-330D825D81BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B6E5F5B0-4F49-49B2-8C95-C14D24CA935D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A067A2B4-5E0B-4CC0-8F4A-330D825D81BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A067A2B4-5E0B-4CC0-8F4A-330D825D81BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A067A2B4-5E0B-4CC0-8F4A-330D825D81BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E5F5B0-4F49-49B2-8C95-C14D24CA935D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E5F5B0-4F49-49B2-8C95-C14D24CA935D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E5F5B0-4F49-49B2-8C95-C14D24CA935D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E5F5B0-4F49-49B2-8C95-C14D24CA935D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
